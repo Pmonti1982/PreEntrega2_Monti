@@ -19,18 +19,28 @@ html {
 }
 
 /* Formato Main*/
-main {
+main, footer {
     background-color: rgb(255, 227, 225);
 }
 main h1, h3 {
     text-align: center; 
+    padding-top: 3px;
 }
 h3 { 
     margin: 0;
 }
-/* Formato Main*/
-footer {
-    background-color: rgb(255, 227, 225);
+/* Galeria*/
+.card {
+    filter: grayscale(100%);
+}
+.card:hover {
+    filter: none;
+}
+
+
+/* Footer */
+footer ul li:hover {
+   background-color: rgb(231, 189, 185);
 }
 
 /* Redes Sociales */
