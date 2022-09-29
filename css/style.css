@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+/* Formato Nav*/
+.navbar {
+   background-color:rgba(255, 209, 209, 0.774);
+}
+.nav-item a, select {
+   color: rgb(255, 148, 148);
+   font-style: italic;
+}
+
+/* Formato Main*/
+main {
+    background-color: rgb(255, 227, 225);
+}
+main h1, h3 {
+    text-align: center; 
+}
+h3 { 
+    margin: 0;
+}
+/* Formato Main*/
+footer {
+    background-color: rgb(255, 227, 225);
+}
+
+/* Redes Sociales */
+.bi-facebook {
+    color: rgb(63, 103, 178);
+    font-size: 20px;
+}
+.bi-pinterest {
+    color: rgb(230 0 35);
+    font-size: 20px;
+}
+.bi-whatsapp {
+    color: rgb(37 211 102);
+    font-size: 20px;
+}
+.bi-instagram {
+    color: rgb(255 48 108);
+    font-size: 20px;
+}
