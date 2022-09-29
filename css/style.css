@@ -9,6 +9,10 @@ html {
 .navbar {
    background-color:rgba(255, 209, 209, 0.774);
 }
+.navbar-brand {
+    width: 50px;
+    height: 60px;
+}
 .nav-item a, select {
    color: rgb(255, 148, 148);
    font-style: italic;
