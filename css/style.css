@@ -27,8 +27,27 @@ main h1, h3 {
     padding-top: 3px;
 }
 h3 { 
+    font-family: 'Indie Flower', cursive;
     margin: 0;
 }
+p {
+    text-align: justify;
+}
+
+/* Cards*/
+.bi-recycle, .bi-droplet-half, .bi-car-front-fill {
+    background-color: rgb(255, 227, 225);
+    color: rgb(255, 148, 148);
+}
+.btn {
+    background-color: rgb(255, 148, 148);
+    border: rgb(255, 148, 148);
+}
+.btn:hover {
+    background-color: rgba(255, 0, 0, 0.514) !important;
+}
+
+
 /* Galeria*/
 .card {
     filter: grayscale(100%);
@@ -36,7 +55,6 @@ h3 {
 .card:hover {
     filter: none;
 }
-
 
 /* Footer */
 footer ul li:hover {
